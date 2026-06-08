@@ -20,7 +20,7 @@ A browser-based daily work journal for researchers. No installation, no server �
 
 Just open `index.html` in your browser (Microsoft Edge or Chrome recommended).
 
-Or double-click `打开日志.bat` to launch with Edge on Windows.
+Or double-click `open.bat` to launch with Edge on Windows.
 
 ## 💾 Storage
 
