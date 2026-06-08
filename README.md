@@ -1,50 +1,47 @@
-# 📓 科研工作日志 (Daily Research Log)
+# 📓 Daily Research Log
 
-一个纯前端浏览器端的科研工作日志工具，无需安装、无需服务器，双击 `index.html` 即可使用。
+A browser-based daily work journal for researchers. No installation, no server — just open `index.html` and start writing.
 
-## ✨ 功能
+## ✨ Features
 
-- 📅 **月历视图** — 按月组织，日历小格子直观显示每天记录
-- ✍️ **多日志块** — 每天可写多条日志，每条独立标题+内容+心情
-- 😊 **心情标记** — 14 种表情可选，可开关
-- 🖼️ **图片粘贴** — Ctrl+V 直接粘贴截图，支持文件选择
-- 💾 **自动保存** — 输入即保存，Ctrl+S 手动保存
-- 🔍 **全文搜索** — 跨月份搜索所有日志内容
-- 📤 **多种导出** — ZIP（含图片）、纯文字 .md、复制到剪贴板
-- 📋 **列表总览** — 卡片式浏览当月全部日志
-- ⏰ **每日提醒** — 可选定时弹窗提醒写日志
-- 🌓 **深色模式** — 护眼暗色主题
-- 🔤 **字体调节** — 可调大调小，偏好记忆
+- 📅 **Monthly Calendar** — Navigate months, see log entries at a glance with mood indicators
+- ✍️ **Multiple Entries Per Day** — Add as many log blocks as you need, each with its own title, content, and mood
+- 😊 **Mood Tracker** — 14 emoji moods to tag how you felt each day (toggleable on/off)
+- 🖼️ **Image Support** — Paste screenshots with Ctrl+V, or pick files from disk
+- 💾 **Auto-Save** — Saves automatically as you type; Ctrl+S to force save
+- 🔍 **Full-Text Search** — Search across all months and entries
+- 📤 **Export Options** — ZIP (with images), plain .md file, or copy to clipboard
+- 📋 **List Overview** — Card-style view of all entries in the current month
+- ⏰ **Daily Reminder** — Optional popup reminder at a configurable time to write your log
+- 🌓 **Dark Mode** — Toggle between light and dark themes
+- 🔤 **Font Size Control** — Adjust text size, preference is remembered
 
-## 🚀 使用方式
+## 🚀 Getting Started
 
-```
-双击 index.html 即可在浏览器中打开
-推荐使用 Microsoft Edge 或 Chrome
-```
+Just open `index.html` in your browser (Microsoft Edge or Chrome recommended).
 
-或双击 `打开日志.bat` 用 Edge 打开。
+Or double-click `打开日志.bat` to launch with Edge on Windows.
 
-## 💾 数据存储
+## 💾 Storage
 
-所有数据保存在浏览器 **localStorage** 中，按月份自动分组。**数据不会随文件移动而丢失。**
+All data is stored in your browser's **localStorage**, organized by month. Data persists across sessions and is not tied to the file location.
 
-> ⚠️ 清除浏览器缓存/数据会导致日志丢失。建议定期使用导出功能备份（📤 导出 → 导出 ZIP 压缩包）。
+> ⚠️ Clearing browser data will delete your logs. Use the Export feature regularly to back up (📤 → Export ZIP).
 
-## 📦 导出格式
+## 📦 Export Formats
 
-| 方式 | 说明 |
-|------|------|
-| ZIP 压缩包 | Markdown + 图片文件夹，解压后可用 Typora/VS Code 查看 |
-| 纯文字 .md | 仅 Markdown 文本 |
-| 复制到剪贴板 | 粘贴到其他应用 |
+| Format | Description |
+|--------|-------------|
+| ZIP Archive | Markdown file + image folder; unzip and view with Typora / VS Code |
+| Plain .md | Markdown text only, no images |
+| Clipboard | Copy Markdown to paste into other apps |
 
-## 🛠 技术
+## 🛠 Tech Stack
 
-- 纯 HTML/CSS/JS 单文件应用
-- 零依赖（除 JSZip CDN 用于 ZIP 导出）
-- localStorage 持久化存储
-- 支持离线使用
+- Single-file HTML/CSS/JS application
+- Zero dependencies (JSZip loaded from CDN for ZIP export only)
+- localStorage for persistence
+- Works offline (except ZIP export)
 
 ## 📄 License
 
