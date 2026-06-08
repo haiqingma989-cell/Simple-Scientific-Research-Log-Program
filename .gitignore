@@ -1,0 +1,15 @@
+# Browser cache
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# No data files needed — all data is in browser localStorage
